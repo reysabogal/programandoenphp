@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0px; margin:0;}
+
+@font-face {
+  font-family: Chewy;
+  src: url('../fonts/Chewy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url('../fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: Lato-Italic;
+  src: url('../fonts/Lato-Italic.ttf');
+}
+
+body{
+ width:100%;
+ height:100%;	 
+}
+
+#menu_sup
+{
+	height:70px;
+	width:1200px;
+	margin-left:30px;
+	font-size:36px;
+	font-family: 'Chewy', cursive;
+	font-style: italic;
+	text-decoration:none;
+	/*font-family:"Comic Sans MS", cursive;
+	font-style:italic; */	
+}
+
+#banner{
+	/*height:200px;
+	width:1200px;
+	background:#00F;
+	margin:auto;
+	*/
+	background:url(../images/banner.jpg) no-repeat center;
+	position: relative;
+	padding: 6em 0em;
+	background-size: cover; 
+	color: #fff;	
+}
+
+#banner2{
+	/*height:200px;
+	width:1200px;
+	background:#00F;
+	margin:auto;
+	*/
+	background:url(../images/banner.jpg) no-repeat center;
+	position: relative;
+	padding: 4em 0em;
+	background-size: cover; 
+	color: #fff;
+	
+}
+
+
+/*articulos horizontales */
+#contenido{
+	width:1200px;
+	height:300px;
+	margin:auto;
+}
+#contenido #articulo1{
+	width:300px;
+	height:300px;
+	float:left;	
+	
+}
+#articulo2, #articulo3, #articulo4{
+	height:300px;
+	width:300px;
+	float:left;	
+}
+/* articulos verticales y nota de inicio */
+
+#inicial1{
+	width:1200px;
+	height:500px;
+	margin:auto;
+	
+}
+#inicial1 #nota1{
+	width:400px;
+	height:500px;
+	float:left;
+	text-align: center;
+}
+
+
+#nota2{
+	height:500px;
+	width:800px;
+	float:left;
+	font-family:"Century Gothic",Bold;
+	font-size:18px;
+	text-align:justify;
+	color:#000;
+}
+/*Seccion para presentacion de las etiquetas en los articulos*/
+#contenedor{
+	width:1200px;
+	text-align:left;
+	margin:auto;
+}
+
+#articulos{
+	float:left;
+	width:800px;	
+	/*padding:30px;*/
+	
+}
+
+#prin2{
+	margin-left:805px;	
+}
+
+/* Pie de página */
+#footer{
+	/*
+	height:30px;
+	
+	width:1200px;
+	*/
+	clear: both;
+	position: relative;
+	/*padding: 10px  0em;*/
+	background-size: cover;	
+	background:#CDCDD4;
+	font-family:"Comic Sans MS", cursive;
+	font-style:italic;
+	margin:auto;	
+}
+
+#footer2{
+	clear: both;
+	position: relative;
+	background:#CDCDD4;
+	font-family:"Comic Sans MS", cursive;
+	font-style:italic;
+	text-align:center;
+}
+
+
+/* contenedores para articulos horizontales */
+
+#prin_art{
+	width:310px;
+	height:100px;
+	margin:auto;
+}
+
+#prin_art #art1{
+	width:100px;
+	height:100px;
+	float:left;
+}
+#art2{
+	height:100px;
+	width:200px;
+	float:left;
+}
+
+/*etiqueta para el primer articulo*/
+
+index_one
+{
+			
+}
+
+/*Clases para definir generales*/
+/* titulo nombres Articulos en las notas */
+h2{
+	font-family:"Century Gothic";
+	font-size:24px;
+	padding:5px;
+	margin-left:5px;
+	alignment-baseline: central;
+	text-align: center;
+	color: #006;
+}
+/* Titulo articulos */
+h3{
+	margin-left:30px;
+	text-align: center;
+	font-family: "Century Gothic";
+	font-size:24px;
+	color: #006;
+}
+
+/* texto en general para articulos */
+p{
+	margin-left:5px;
+	font-size:16px;
+	font-family: "Lato-Regular";
+	alignment-adjust:auto;
+	text-align:justify;
+	}
+/* estilo de los vínculos que tambien los va a tener los articulos */
+a{
+	font-size:16px;
+	font-family: "Malgun Gothic",bold;
+	font-style:bold;
+	color:#03C;
+	text-decoration:none;
+}
+a:link, a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{
+	color:black;
+	background:#ffb258;
+	text-decoration:none;
+}
+
